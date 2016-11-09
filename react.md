@@ -58,8 +58,11 @@ export default function AbsOverlay () {
 
 ## JS
 
-All js code should be written as es6 modules.  Babel should be used to build code with at least the `es2015` preset enabled.
+All js code should be written as es6 modules.  Babel should be used to build code with at least the `es2015` and `react` presets enabled.
 
+``` js
+query: { presets: ['es2015', 'react'] }
+```
 
 ### Redux
 
