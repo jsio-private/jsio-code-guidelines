@@ -1,6 +1,8 @@
 # Getting Started with Markdown
 
-## Headings
+## Snippets and Style Guide
+
+### Headings
 
 You can create HTML elements &lt;h1&gt; through &lt;h6&gt; easily by prepending the text you want to be in that element by a number of hashes (#).
 
@@ -13,7 +15,7 @@ You can create HTML elements &lt;h1&gt; through &lt;h6&gt; easily by prepending 
 ###### This is an <h6>
 ```
 
-## Text styles
+### Text styles
 
 Text can be easily styled as italic or bold using markdown.
 
@@ -29,7 +31,7 @@ __And so is this text.__
 *__And this!__*
 ```
 
-## Code blocks
+### Code blocks
 
 You can use a special syntax for code
 
@@ -39,16 +41,19 @@ def foobar
 end
 ```
 
-## Links
+### Links
 
-One of the best things about markdown is how easy it is to make links. Put the text to display in hard brackets [] followed by the url in parentheses ()
+One of the best things about markdown is how easy it is to make links. Put the text to display in square brackets [] followed by the url in parentheses ()
 
 ```markdown
-[Click me!](https://google.com/)
+[Click me](https://google.com/)
 ```
 
 ## Resources
 
-[Starter guide](https://learnxinyminutes.com/docs/markdown/)
+[More detailed starter guide](https://learnxinyminutes.com/docs/markdown/)
 
-[Linter for VS Code](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+### VS Code extensions
+
+[markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+
