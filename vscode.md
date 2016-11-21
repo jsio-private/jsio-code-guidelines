@@ -4,7 +4,13 @@
 
 Download VSCode from [code.visualstudio.com](https://code.visualstudio.com/)
 
-## Importing a project
+## Installing extensions
+
+![VSCode window with extensions](http://i.imgur.com/9ViTwtb.png)
+
+You may have to restart VSCode when installing extensions
+
+## Opening a project
 
 After cloning a project to a directory, you should open that directory in VS Code.
 

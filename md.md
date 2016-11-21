@@ -49,6 +49,14 @@ One of the best things about markdown is how easy it is to make links. Put the t
 [Click me](https://google.com/)
 ```
 
+### Images
+
+Images are done the same way as links but with an exclamation point in front!
+
+```markdown
+![This is the alt-attribute for my image](http://imgur.com/myimage.jpg)
+```
+
 ## Resources
 
 [More detailed starter guide](https://learnxinyminutes.com/docs/markdown/)
