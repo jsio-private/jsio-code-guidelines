@@ -31,7 +31,7 @@ After cloning a project to a directory, you should open that directory in VS Cod
 
 ## Useful settings
 
-```json
+```js
 {
   // A visual ruler
   "editor.rulers": [ 80 ],
