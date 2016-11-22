@@ -1,6 +1,7 @@
 # Customizing a Theme in VS-Code
 
 Before you get started, here are some good resources to look at:
+
 - [Great docs from ms](https://code.visualstudio.com/Docs/customization/themes) about how to customize the colors in vs-code.
 - [Sample_Dark.tmTheme](https://github.com/Microsoft/vscode-extension-samples/blob/master/theme-sample/Sample_Dark.tmTheme) to reference when playing with your own theme.
 

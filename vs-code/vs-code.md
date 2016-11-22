@@ -24,6 +24,7 @@ After cloning a project to a directory, you should open that directory in VS Cod
 - `cmd+p` Open file: fuzzy find open file from current project.
 - `cmd+[1-9]` Select pane corresponding to number.
 - `alt+[arrow_up|arrow_down]` Shift line up or down.
+- `f2` Rename symbol
 
 ### Useful commands
 
@@ -81,25 +82,32 @@ After cloning a project to a directory, you should open that directory in VS Cod
   - Command: "todo"
 - [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
   - Command: "trailing"
+- [View Node Package](https://marketplace.visualstudio.com/items?itemName=dkundel.vscode-npm-source)
+  - Command: "package source" while cursor is on a require statement
 
 #### Language: typescript
+
 - [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
 - [Types auto installer](https://marketplace.visualstudio.com/items?itemName=jvitor83.types-autoinstaller)
 - [TypeScript Hero](https://marketplace.visualstudio.com/items?itemName=rbbit.typescript-hero)
   - Command: "type", "import"
 
 #### Language: es6
+
 - [Babel ES6/ES7](https://marketplace.visualstudio.com/items?itemName=dzannotti.vscode-babel-coloring)
   - After you have installed this plugin, open a `.js` file and run command "Change Language Mode", select "Javascript (Babel)".
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
 #### Language: Markdown
+
 - [markdownlinter](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 
 #### Language: Python
+
 - [Python](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python)
 
 ### Personalization
+
 - [OceanicNext Theme](https://marketplace.visualstudio.com/items?itemName=gerane.Theme-OceanicNext)
 - [Theme-RealGithub](https://marketplace.visualstudio.com/items?itemName=NoHomey.theme-realgithub)
 - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons)
