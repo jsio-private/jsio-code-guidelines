@@ -22,12 +22,14 @@ After cloning a project to a directory, you should open that directory in VS Cod
 
 - `cmd+shift+p` Command menu: this is the menu where you can run "commands" from vs code or from extensions.  Command availability may depend on the type of file you have focussed.
 - `cmd+p` Open file: fuzzy find open file from current project.
-- `cmd+[1-9]` Select pane
+- `cmd+[1-9]` Select pane corresponding to number.
+- `alt+[arrow_up|arrow_down]` Shift line up or down.
 
 ### Useful commands
 
 - "Reload Window" For when your linters are misbehaving, or for when you have changed your installed extensions.
 - "Open User Settings" To quickly see all default settings and all your current settings.
+- "Markdown: Open Preview" Quickly view a live updating render of the current markdown file.
 
 ## Useful settings
 
