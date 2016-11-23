@@ -78,7 +78,7 @@ module.exports = {
 
 ## Resources
 
-- [Git repository](https://github.com/jsio-private/jsio-webpack/blob/master/readme.md)
+- [Git repository](https://github.com/jsio-private/jsio-webpack)
 
 ### Example projects
 
