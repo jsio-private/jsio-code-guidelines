@@ -9,7 +9,7 @@ This is an example of what your `package.json` should contain (in relation to js
 ```json
 {
   "scripts": {
-    "build": "NODE_ENV=production jsio-webpack", // NODE_ENV=production is required for production builds!
+    "build": "NODE_ENV=production jsio-webpack",
     "watch": "jsio-webpack --watch",
     "serve": "jsio-webpack serve --hot"
   },
@@ -18,6 +18,8 @@ This is an example of what your `package.json` should contain (in relation to js
   }
 }
 ```
+
+`NODE_ENV=production` in build script is required for production builds!
 
 ### Coding debug features
 
