@@ -4,13 +4,14 @@
 
 ECMAScript 6, also known as ECMAScript 2015, is the latest version of the ECMAScript standard. ES6 is a significant update to the language, and the first update to the language since ES5 was standardized in 2009.
 
-##  New Features
+## New Features
 
 The new features specifically listed below are replacing features that used to be handled by internal tooling.
 
 ### Imports / Exports
 
 Documentation:
+
 - [Imports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 - [Exports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export)
 
@@ -100,3 +101,8 @@ export default class PieView extends View {
 
 - [Full list of ES6 features](https://github.com/lukehoban/es6features)
 - [MDN JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference);
+
+### Examples
+
+- [ledger-proposal example](https://github.com/jsio-private/ledger-proposal/tree/master/examples/everwing)
+- [face-decorator editor UI](https://github.com/jsio-private/face-decorator/tree/master/editor-ui)

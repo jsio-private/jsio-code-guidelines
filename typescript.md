@@ -57,6 +57,10 @@ var scary = new Monster("Alien", {x: 0, y: 0});
 
 - [Official docs](https://www.typescriptlang.org/docs/index.html)
 
+### Examples
+
+- [ledger-proposal example](https://github.com/jsio-private/ledger-proposal/tree/master/examples/everwing)
+
 ### VSCode extensions
 
 - [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
