@@ -18,6 +18,10 @@ After cloning a project to a directory, you should open that directory in VS Cod
 
 ![VSCode window](http://i.imgur.com/kfXrGyp.png)
 
+### Status bar
+
+The status bar is the bar at the bottom of the window. It contains information such as current Git branch, errors and warnings, file location, line position, and more.
+
 ### Git Integration
 
 Excellent integration for entire Git workflow.
@@ -82,9 +86,7 @@ During a merge click the git icon and make changes in the diff view.
 
 ![Git icon](https://raw.githubusercontent.com/Microsoft/vscode-tips-and-tricks/b5aa1252019f06e38903d47fabc43552fe8c6f93/media/git_icon.png)
 
-[More tips and tricks](https://github.com/Microsoft/vscode-tips-and-tricks#git-integration)
-
----
+[More tips and tricks](https://github.com/Microsoft/vscode-tips-and-tricks)
 
 ## Useful Shortcuts
 
