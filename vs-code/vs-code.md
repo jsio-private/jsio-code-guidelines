@@ -18,6 +18,74 @@ After cloning a project to a directory, you should open that directory in VS Cod
 
 ![VSCode window](http://i.imgur.com/kfXrGyp.png)
 
+### Git Integration
+
+Excellent integration for entire Git workflow.
+
+#### Diffs
+
+Click Git icon in the sidebar then select the file to diff.
+
+![Git icon](https://raw.githubusercontent.com/Microsoft/vscode-tips-and-tricks/b5aa1252019f06e38903d47fabc43552fe8c6f93/media/git_icon.png)
+
+##### Side by side
+
+Default is side by side diff
+
+![side by side view](https://raw.githubusercontent.com/Microsoft/vscode-tips-and-tricks/master/media/git_side_by_side.png)
+
+##### Inline view
+
+Toggle inline view by clicking more button in the top right.
+
+![inline view icon](https://raw.githubusercontent.com/Microsoft/vscode-tips-and-tricks/master/media/more_button.png)
+
+![inline view](https://raw.githubusercontent.com/Microsoft/vscode-tips-and-tricks/master/media/git_inline.png)
+
+#### Branches
+
+Easily switch between branches via the status bar.
+
+![branches gif](https://raw.githubusercontent.com/Microsoft/vscode-tips-and-tricks/master/media/switch_branches.gif)
+
+#### Staging
+
+##### Stage all
+
+Hover over the number of files and click the plus button.
+
+![stage all gif](https://raw.githubusercontent.com/Microsoft/vscode-tips-and-tricks/master/media/git_stage_all.gif)
+
+##### Stage selected
+
+Stage a portion of a file by selecting that file (using the arrows) and then staging "selected lines" via the more button.
+
+![stage selected gif](https://raw.githubusercontent.com/Microsoft/vscode-tips-and-tricks/master/media/git_stage_selected.gif)
+
+#### Undo last commit
+
+![undo last commit](https://raw.githubusercontent.com/Microsoft/vscode-tips-and-tricks/master/media/undo_last_commit.gif)
+
+#### See git output
+
+Sometimes I want to see what my tool is doing. Visual Studio Code makes it easy to see what git commands are running. This is helpful when learning git or debugging a difficult source control issue.
+
+> Mac: <kbd>shift+cmd+u</kbd>
+
+> Windows / Linux: <kbd>ctrl+shift+u</kbd>
+
+to run `toggleOutput`. Select Git in the dropdown.
+
+#### Resolve merge conflicts
+
+During a merge click the git icon and make changes in the diff view.
+
+![Git icon](https://raw.githubusercontent.com/Microsoft/vscode-tips-and-tricks/b5aa1252019f06e38903d47fabc43552fe8c6f93/media/git_icon.png)
+
+[More tips and tricks](https://github.com/Microsoft/vscode-tips-and-tricks#git-integration)
+
+---
+
 ## Useful Shortcuts
 
 - `cmd+shift+p` Command menu: this is the menu where you can run "commands" from vs code or from extensions.  Command availability may depend on the type of file you have focussed.
