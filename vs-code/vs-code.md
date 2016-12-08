@@ -152,6 +152,8 @@ During a merge click the git icon and make changes in the diff view.
   - Command: "todo"
 - [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
   - Command: "trailing"
+- [Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens)
+  - Adds versions inline for your package.json, pretty useful as a reminder to keep up to date on what your dependencies are doing.
 - [View Node Package](https://marketplace.visualstudio.com/items?itemName=dkundel.vscode-npm-source)
   - Command: "package source" while cursor is on a require statement
 
@@ -175,6 +177,7 @@ During a merge click the git icon and make changes in the diff view.
 #### Language: Python
 
 - [Python](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python)
+  - If you are also using `pyenv`, you may want this global setting: `"python.pythonPath": "/usr/local/var/pyenv/shims/python"`
 
 ### Personalization
 
