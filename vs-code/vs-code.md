@@ -106,19 +106,31 @@ During a merge click the git icon and make changes in the diff view.
 
 ```js
 {
+  // Auto indentation is annoying, especially if you use the move line shortcuts
+  "editor.autoIndent": false,
+  // Show the minimap position always (normally only visible when scrolling)
+  "editor.minimap.showSlider": "always",
+  // Make suggestions while typing in comments and strings (default is only other)
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  // Show indent guides
+  "editor.renderIndentGuides": true,
+  // Make wrapped lines more obvious
+  "editor.renderWhitespace": "none",
+  "editor.wrappingIndent": "none",
   // A visual ruler
   "editor.rulers": [ 80 ],
-  // Make wrapped lines more obvious
-  "editor.wrappingIndent": "none",
-  "editor.renderWhitespace": "none",
   // Keep side bar from jumping around so much
   "explorer.autoReveal": false,
-  // Always include all words from the current document.
-  "javascript.suggest.alwaysAllWords": true,
-  // Complete functions with their parameter signature.
-  "javascript.suggest.useCodeSnippetsOnMethodSuggest": true,
-  // Show indent guides
-  "editor.renderIndentGuides": true
+  // Extensions are not stable enough for auto updates IMO
+  "extensions.autoUpdate": false,
+  // Keep command palatte history between uses
+  "workbench.commandPalette.preserveInput": true,
+  // Keep files open even after they are deleted on disk. Great if you accidentally remove something.
+  "workbench.editor.closeOnFileDelete": false
 }
 ```
 
