@@ -7,3 +7,11 @@
 ```bash
 find . -name '*.png' -print0 | xargs -0 -P`sysctl -n hw.ncpu` -L1 pngquant --ext .png --verbose --force --speed 1 --quality 15-55 32
 ```
+
+### Recursively remove `*.pyc` files
+
+```bash
+find . -name "*.pyc" -exec rm -rf {} \;
+```
+
+_Source: <http://stackoverflow.com/a/785534>_

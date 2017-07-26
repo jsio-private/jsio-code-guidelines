@@ -156,13 +156,14 @@ During a merge click the git icon and make changes in the diff view.
   - Adds versions inline for your package.json, pretty useful as a reminder to keep up to date on what your dependencies are doing.
 - [View Node Package](https://marketplace.visualstudio.com/items?itemName=dkundel.vscode-npm-source)
   - Command: "package source" while cursor is on a require statement
+- [Quit Control for VSCode](https://marketplace.visualstudio.com/items?itemName=artdiniz.quitcontrol-vscode)
 
 #### Language: typescript
 
 - [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
-- [Types auto installer](https://marketplace.visualstudio.com/items?itemName=jvitor83.types-autoinstaller)
 - [TypeScript Hero](https://marketplace.visualstudio.com/items?itemName=rbbit.typescript-hero)
   - Command: "type", "import"
+- [Move TS](https://marketplace.visualstudio.com/items?itemName=stringham.move-ts)
 
 #### Language: es6
 
@@ -173,6 +174,7 @@ During a merge click the git icon and make changes in the diff view.
 #### Language: Markdown
 
 - [markdownlinter](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+- [Markdown Table Formatter](https://marketplace.visualstudio.com/items?itemName=josa.markdown-table-formatter)
 
 #### Language: Python
 
