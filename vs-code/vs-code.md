@@ -134,6 +134,56 @@ During a merge click the git icon and make changes in the diff view.
 }
 ```
 
+## Useful Keybindings
+
+```js
+{
+  // Quick switch windows
+  {
+    "key": "cmd+r",
+    "command": "workbench.action.quickSwitchWindow"
+  },
+  {
+    "key": "cmd+r",
+    "command": "workbench.action.quickOpenNavigateNext",
+    "when": "inWindowsPicker"
+  },
+  // Expand select with similar binds to select by word
+  {
+    "key": "alt+shift+down",
+    "command": "editor.action.smartSelect.grow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+shift+up",
+    "command": "editor.action.smartSelect.shrink",
+    "when": "editorTextFocus"
+  },
+  // Make show git shortcut consistent with show file tree
+  {
+    "key": "cmd+shift+g",
+    "command": "workbench.view.scm"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "editor.action.previousMatchFindAction",
+    "when": "editorFocus"
+  },
+  // Left right
+  {
+    "key": "ctrl+left",
+    "command": "workbench.action.focusPreviousGroup",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+right",
+    "command": "workbench.action.focusNextGroup",
+    "when": "editorTextFocus"
+  }
+}
+```
+
+
 ## Useful extensions
 
 ### Productivity
