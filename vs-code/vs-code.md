@@ -127,6 +127,8 @@ During a merge click the git icon and make changes in the diff view.
   "explorer.autoReveal": false,
   // Extensions are not stable enough for auto updates IMO
   "extensions.autoUpdate": false,
+  // Tween scrool position on page up, page down, or other scroll jumps.
+  "editor.smoothScrolling": true,
   // Keep command palatte history between uses
   "workbench.commandPalette.preserveInput": true,
   // Keep files open even after they are deleted on disk. Great if you accidentally remove something.
