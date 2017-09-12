@@ -132,7 +132,13 @@ During a merge click the git icon and make changes in the diff view.
   // Keep command palatte history between uses
   "workbench.commandPalette.preserveInput": true,
   // Keep files open even after they are deleted on disk. Great if you accidentally remove something.
-  "workbench.editor.closeOnFileDelete": false
+  "workbench.editor.closeOnFileDelete": false,
+  // Default tab size of 2
+  "editor.tabSize": 2,
+  // Use 4 space tabs for python
+  "[python]": {
+      "editor.tabSize": 4
+  }
 }
 ```
 
